@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 				version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    
+    <!--<job>
+      <name>jobName1</name>
+      <group>jobGroup1</group>
+      <description>jobDesciption1</description>
+      <job-type>JobService.SimpleJob, JobService</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <entry>
+          <key>key0</key>
+          <value>value0</value>
+        </entry>
+        <entry>
+          <key>key1</key>
+          <value>value1</value>
+        </entry>
+        <entry>
+          <key>key2</key>
+          <value>value2</value>
+        </entry>
+      </job-data-map>
+    </job>
+    
+    --><!--<trigger>
+      <simple>
+        <name>simpleName</name>
+        <group>simpleGroup</group>
+        <description>SimpleTriggerDescription</description>
+        <job-name>jobName1</job-name>
+        <job-group>jobGroup1</job-group>
+        <start-time>1982-06-28T18:15:00.0Z</start-time>
+        <end-time>2020-05-04T18:13:51.0Z</end-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>100</repeat-count>
+        <repeat-interval>3000</repeat-interval>
+      </simple>
+    </trigger>--><!--
+    <trigger>
+      <cron>
+        <name>simpleNameTrigger2</name>
+        <group>simpleGroupTriggerGroup</group>
+        <job-name>jobName1</job-name>
+        <job-group>jobGroup1</job-group>
+        <cron-expression>0/1 * * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+
+    <job>
+      <name>IELessJob</name>
+      <group>IELessJobGroup</group>
+      <description>IELessJob</description>
+      <job-type>Jobs.IELessJob, Jobs</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+      <cron>
+        <name>IELessJobTrigger</name>
+        <group>IELessJobTriggerGroup</group>
+        <job-name>IELessJob</job-name>
+        <job-group>IELessJobGroup</job-group>
+        <cron-expression>0 0/1 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>TestJob</name>
+      <group>TestJobGroup</group>
+      <description>TestJob</description>
+      <job-type>Jobs.TestJob, Jobs</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+      <cron>
+        <name>TestJobTrigger</name>
+        <group>TestJobTriggerGroup</group>
+        <job-name>TestJob</job-name>
+        <job-group>TestJobGroup</job-group>
+        <cron-expression>0/5 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+
+  </schedule>
+  
+</job-scheduling-data>

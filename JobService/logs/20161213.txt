@@ -1,0 +1,144 @@
+2016-12-13 18:17:37.219 +08:00 [Information] Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json
+2016-12-13 18:17:37.374 +08:00 [Debug] TaskSchedulingThreadPool configured with max concurrency of 5 and TaskScheduler ThreadPoolTaskScheduler.
+2016-12-13 18:17:37.601 +08:00 [Information] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-12-13 18:17:37.621 +08:00 [Information] Quartz Scheduler v."3.0.0.0" created.
+2016-12-13 18:17:37.629 +08:00 [Information] Registering Quartz Job Initialization Plug-in.
+2016-12-13 18:17:37.662 +08:00 [Information] RAMJobStore initialized.
+2016-12-13 18:17:37.675 +08:00 [Information] Scheduler meta-data: Quartz Scheduler (v3.0.0.0) 'XmlConfiguredInstance' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 5 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-13 18:17:37.676 +08:00 [Information] Quartz scheduler 'XmlConfiguredInstance' initialized
+2016-12-13 18:17:37.676 +08:00 [Information] Quartz scheduler version: 3.0.0.0
+2016-12-13 18:17:37.706 +08:00 [Information] Parsing XML file: "E:\gitHub\quartznet-quartznet-3\JobService\bin\Debug\netcoreapp1.0\quartz_jobs.xml" with systemId: "~/quartz_jobs.xml"
+2016-12-13 18:17:38.657 +08:00 [Debug] Found 0 delete job group commands.
+2016-12-13 18:17:38.658 +08:00 [Debug] Found 0 delete trigger group commands.
+2016-12-13 18:17:38.659 +08:00 [Debug] Found 0 delete job commands.
+2016-12-13 18:17:38.659 +08:00 [Debug] Found 0 delete trigger commands.
+2016-12-13 18:17:38.661 +08:00 [Debug] Directive 'overwrite-existing-data' specified as: True
+2016-12-13 18:17:38.661 +08:00 [Debug] Directive 'ignore-duplicates' specified as: False
+2016-12-13 18:17:38.662 +08:00 [Debug] Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False
+2016-12-13 18:17:38.664 +08:00 [Debug] Found 2 job definitions.
+2016-12-13 18:17:38.741 +08:00 [Debug] Parsed job definition: JobDetail 'IELessJobGroup.IELessJob':  jobType: 'Jobs.IELessJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: True isDurable: True requestsRecovers: False
+2016-12-13 18:17:38.743 +08:00 [Debug] Parsed job definition: JobDetail 'TestJobGroup.TestJob':  jobType: 'Jobs.TestJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: True isDurable: True requestsRecovers: False
+2016-12-13 18:17:38.745 +08:00 [Debug] Found 2 trigger definitions.
+2016-12-13 18:17:38.793 +08:00 [Debug] Parsed trigger definition: Trigger 'IELessJobTriggerGroup.IELessJobTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 
+2016-12-13 18:17:38.795 +08:00 [Debug] Parsed trigger definition: Trigger 'TestJobTriggerGroup.TestJobTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 
+2016-12-13 18:17:38.832 +08:00 [Information] Adding 2 jobs, 2 triggers.
+2016-12-13 18:17:38.838 +08:00 [Information] Adding job: IELessJobGroup.IELessJob
+2016-12-13 18:17:38.847 +08:00 [Information] Adding job: TestJobGroup.TestJob
+2016-12-13 18:17:38.853 +08:00 [Debug] Scheduling job: "IELessJobGroup.IELessJob" with trigger: "IELessJobTriggerGroup.IELessJobTrigger"
+2016-12-13 18:17:38.909 +08:00 [Debug] Scheduling job: "TestJobGroup.TestJob" with trigger: "TestJobTriggerGroup.TestJobTrigger"
+2016-12-13 18:17:38.916 +08:00 [Information] Scheduler XmlConfiguredInstance_$_NON_CLUSTERED started.
+2016-12-13 18:17:38.921 +08:00 [Information] Service run successfully.
+2016-12-13 18:17:38.925 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:40.018 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:17:40.041 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:40.100 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:17:40.109 +08:00 [Information] 2016/12/13 18:17:40
+2016-12-13 18:17:40.117 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:17:40.156 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:45.002 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:17:45.006 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:17:45.008 +08:00 [Information] 2016/12/13 18:17:45
+2016-12-13 18:17:45.007 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:45.011 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:17:45.019 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:50.001 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:17:50.006 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:17:50.016 +08:00 [Information] 2016/12/13 18:17:50
+2016-12-13 18:17:50.018 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:17:50.007 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:50.022 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:55.001 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:17:55.006 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:17:55.009 +08:00 [Information] 2016/12/13 18:17:55
+2016-12-13 18:17:55.015 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:17:55.007 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:17:55.020 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:18:00.002 +08:00 [Debug] Producing instance of Job 'IELessJobGroup.IELessJob', class=Jobs.IELessJob
+2016-12-13 18:18:00.013 +08:00 [Debug] Calling Execute on job IELessJobGroup.IELessJob
+2016-12-13 18:18:00.013 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:18:08.638 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:18:08.697 +08:00 [Debug] Batch acquisition of 0 triggers
+2016-12-13 18:30:52.693 +08:00 [Information] Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json
+2016-12-13 18:30:52.870 +08:00 [Debug] TaskSchedulingThreadPool configured with max concurrency of 5 and TaskScheduler ThreadPoolTaskScheduler.
+2016-12-13 18:30:52.980 +08:00 [Information] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-12-13 18:30:52.990 +08:00 [Information] Quartz Scheduler v."3.0.0.0" created.
+2016-12-13 18:30:53.000 +08:00 [Information] Registering Quartz Job Initialization Plug-in.
+2016-12-13 18:30:53.015 +08:00 [Information] RAMJobStore initialized.
+2016-12-13 18:30:53.030 +08:00 [Information] Scheduler meta-data: Quartz Scheduler (v3.0.0.0) 'XmlConfiguredInstance' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 5 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-13 18:30:53.035 +08:00 [Information] Quartz scheduler 'XmlConfiguredInstance' initialized
+2016-12-13 18:30:53.038 +08:00 [Information] Quartz scheduler version: 3.0.0.0
+2016-12-13 18:30:53.078 +08:00 [Information] Parsing XML file: "E:\gitHub\JobEngine\JobService\bin\Debug\netcoreapp1.0\quartz_jobs.xml" with systemId: "~/quartz_jobs.xml"
+2016-12-13 18:30:53.859 +08:00 [Debug] Found 0 delete job group commands.
+2016-12-13 18:30:53.859 +08:00 [Debug] Found 0 delete trigger group commands.
+2016-12-13 18:30:53.875 +08:00 [Debug] Found 0 delete job commands.
+2016-12-13 18:30:53.875 +08:00 [Debug] Found 0 delete trigger commands.
+2016-12-13 18:30:53.875 +08:00 [Debug] Directive 'overwrite-existing-data' specified as: True
+2016-12-13 18:30:53.875 +08:00 [Debug] Directive 'ignore-duplicates' specified as: False
+2016-12-13 18:30:53.875 +08:00 [Debug] Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False
+2016-12-13 18:30:53.875 +08:00 [Debug] Found 2 job definitions.
+2016-12-13 18:30:53.890 +08:00 [Debug] Parsed job definition: JobDetail 'IELessJobGroup.IELessJob':  jobType: 'Jobs.IELessJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: True isDurable: True requestsRecovers: False
+2016-12-13 18:30:53.906 +08:00 [Debug] Parsed job definition: JobDetail 'TestJobGroup.TestJob':  jobType: 'Jobs.TestJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: True isDurable: True requestsRecovers: False
+2016-12-13 18:30:53.906 +08:00 [Debug] Found 2 trigger definitions.
+2016-12-13 18:30:53.953 +08:00 [Debug] Parsed trigger definition: Trigger 'IELessJobTriggerGroup.IELessJobTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 
+2016-12-13 18:30:53.953 +08:00 [Debug] Parsed trigger definition: Trigger 'TestJobTriggerGroup.TestJobTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 
+2016-12-13 18:30:53.999 +08:00 [Information] Adding 2 jobs, 2 triggers.
+2016-12-13 18:30:54.015 +08:00 [Information] Adding job: IELessJobGroup.IELessJob
+2016-12-13 18:30:54.015 +08:00 [Information] Adding job: TestJobGroup.TestJob
+2016-12-13 18:30:54.031 +08:00 [Debug] Scheduling job: "IELessJobGroup.IELessJob" with trigger: "IELessJobTriggerGroup.IELessJobTrigger"
+2016-12-13 18:30:54.077 +08:00 [Debug] Scheduling job: "TestJobGroup.TestJob" with trigger: "TestJobTriggerGroup.TestJobTrigger"
+2016-12-13 18:30:54.093 +08:00 [Information] Scheduler XmlConfiguredInstance_$_NON_CLUSTERED started.
+2016-12-13 18:30:54.093 +08:00 [Information] Service run successfully.
+2016-12-13 18:30:54.109 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:30:55.029 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:30:55.060 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:30:55.169 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:30:55.169 +08:00 [Information] 2016/12/13 18:30:55
+2016-12-13 18:30:55.185 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:30:55.216 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:00.009 +08:00 [Debug] Producing instance of Job 'IELessJobGroup.IELessJob', class=Jobs.IELessJob
+2016-12-13 18:31:00.009 +08:00 [Debug] Calling Execute on job IELessJobGroup.IELessJob
+2016-12-13 18:31:00.009 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:00.024 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:31:00.024 +08:00 [Debug] Batch acquisition of 0 triggers
+2016-12-13 18:31:00.024 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:31:00.055 +08:00 [Information] 2016/12/13 18:31:00
+2016-12-13 18:31:00.055 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:31:00.055 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:01.537 +08:00 [Information] 中国银行:One or more errors occurred. (An error occurred while sending the request.)
+2016-12-13 18:31:02.653 +08:00 [Information] 交通银行:One or more errors occurred. (An error occurred while sending the request.)
+2016-12-13 18:31:03.729 +08:00 [Information] 交通银行:One or more errors occurred. (An error occurred while sending the request.)
+2016-12-13 18:31:04.853 +08:00 [Information] 交通银行:One or more errors occurred. (An error occurred while sending the request.)
+2016-12-13 18:31:04.853 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:31:04.853 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:05.009 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:31:05.009 +08:00 [Debug] Batch acquisition of 0 triggers
+2016-12-13 18:31:05.009 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:31:05.009 +08:00 [Information] 2016/12/13 18:31:05
+2016-12-13 18:31:05.024 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:31:05.024 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:10.014 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:31:10.014 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:31:10.014 +08:00 [Debug] Batch acquisition of 0 triggers
+2016-12-13 18:31:10.014 +08:00 [Information] 2016/12/13 18:31:10
+2016-12-13 18:31:10.029 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:31:10.029 +08:00 [Debug] Batch acquisition of 1 triggers
+2016-12-13 18:31:15.006 +08:00 [Debug] Producing instance of Job 'TestJobGroup.TestJob', class=Jobs.TestJob
+2016-12-13 18:31:15.006 +08:00 [Debug] Calling Execute on job TestJobGroup.TestJob
+2016-12-13 18:31:15.006 +08:00 [Information] 2016/12/13 18:31:15
+2016-12-13 18:31:15.006 +08:00 [Debug] Trigger instruction : NoInstruction
+2016-12-13 18:31:15.006 +08:00 [Debug] Batch acquisition of 0 triggers
+2016-12-13 18:31:15.021 +08:00 [Debug] Batch acquisition of 1 triggers
